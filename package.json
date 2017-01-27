@@ -1,0 +1,9 @@
+{
+  "name": "ph-todo-auth",
+  "version": "0.1.0",
+  "description": "Auth server for ph-todo-example",
+  "main": "index.js",
+  "repository": "https://github.com/PinkHippos/ph-todo-auth.git",
+  "author": "chippawah <charles.cantrell@me.com>",
+  "license": "Apache-2.0"
+}
