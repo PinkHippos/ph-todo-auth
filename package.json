@@ -6,6 +6,9 @@
   "repository": "https://github.com/PinkHippos/ph-todo-auth.git",
   "author": "chippawah <charles.cantrell@me.com>",
   "license": "Apache-2.0",
+  "scripts": {
+    "build": "coffee --output $PWD/build/ --compile $PWD/src/"
+  },
   "dependencies": {
     "body-parser": "^1.16.0",
     "connect-redis": "^3.2.0",
@@ -20,8 +23,13 @@
     "redis": "^2.6.5",
     "rewt": "^1.1.0",
     "seneca": "^3.2.2",
-    "seneca-amqp-transport": "^2.1.0",
+    "seneca-amqp-transport": "2.1.0",
     "seneca-legacy-logger": "^0.1.0",
     "tcp-ping": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coffeescript": "^2.0.2",
+    "mocha": "^4.0.1"
   }
 }
